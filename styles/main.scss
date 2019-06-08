@@ -192,12 +192,16 @@ body{
     display: none;
 }
 
+#flex-portfolio{
+    width: 100%; height: 100%; display: flex; justify-content: center !important; align-items: center !important;
+}
+
 .third-part-container{
-    width: 100%; height: 1080px; max-height: 2080px; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+    width: 100%; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
     .portfolio-content{
-        height: 980px; position: absolute; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; justify-content: center; align-items: space-around;
+        display: flex; flex-direction: column; justify-content: center; align-items: space-around; margin: 20px 0px;
         .portfolio-title{
-            margin-bottom: 70px;
+            margin-bottom: 40px;
             h1{
                 font-family: $roboto-label; font-size: 64px; font-weight: 700;
             }
@@ -362,43 +366,51 @@ body{
         display: none !important;
     }
     .about-mobile{
-        display: block !important; position: relative !important; height: 900px !important; 
+        display: block !important; position: relative !important; height: 800px !important; 
         .about-holder{
                 width: 300px; position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; padding: 15px; box-sizing: border-box; margin-top: 50px;
             }
             section:nth-child(1){
                 h1{
-                    font-family: $roboto-label; font-weight: 700; font-size: 48px; margin-bottom: 0; margin-top: 50px;
+                    font-family: $roboto-label; font-weight: 700; font-size: 40px; margin-bottom: 0;
                 }
             }
             section:nth-child(2){
                 margin-top: 25px;
                 p{
-                    font-family: $roboto-label; font-size: 18px; line-height: 36px; color: $black; font-weight: 400; margin-bottom: 0;
+                    font-family: $roboto-label; font-size: 14px; line-height: 36px; color: $black; font-weight: 400; margin-bottom: 0;
                 }
             }
             .section3{
-                margin-top: 45px;
+                margin-top: 45px; transform: scale(.8);
             }
     }
     .stud{
         display: none !important;
     }
     .third-part-container{
-        width: 100%; height: 1600px !important;background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+        width: 100%; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+        .portfolio-title{
+            h1{
+                font-size: 40px !important; 
+            }
+        }
         .portfolio-works{
             .box{
                 width: 380px !important; height: 380px !important; background-color: $black; position: relative; margin: 20px; box-shadow: 0px 30px 20px rgba(0,0,0,0.1);
             }
         }
     }
+    .third-part-container .portfolio-content .portfolio-works .box .to-works label{
+        font-size: 16px !important;
+    }
     .to-email{
         background-color: white; border-radius: 18px; box-shadow: 0px 30px 25px rgba(0,0,0,.3); width: auto !important; height: 105px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; box-sizing: border-box;
         label{
-            font-family: $roboto-label; font-size: 10px;
+            font-family: $roboto-label; font-size: 14px !important;
         }
         h1{
-            font-family: $roboto-label; font-size: 13px; letter-spacing: 0px; font-weight: 700;
+            font-family: $roboto-label; font-size: 20px !important; letter-spacing: 0px !important; font-weight: 700;
         }
     }
 }
@@ -520,7 +532,7 @@ body{
         display: none !important;
     }
     .third-part-container{
-        width: 100%; height: 1800px !important;background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+        width: 100%; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
     }
     .to-email{
         background-color: white; border-radius: 18px; box-shadow: 0px 30px 25px rgba(0,0,0,.3); width: 440px !important; height: 105px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; box-sizing: border-box;
@@ -650,7 +662,7 @@ body{
         display: none !important;
     }
     .third-part-container{
-        width: 100%; height: 1800px !important;background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+        width: 100%; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
     }
 }
 
@@ -692,7 +704,7 @@ body{
         }
     }
     .third-part-container{
-        width: 100%; height: 1800px; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+        width: 100%; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
     }
 }
 
@@ -708,7 +720,7 @@ body{
         }            
     }
     .third-part-container{
-        width: 100%; height: 1280px; max-height: 2080px; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+        width: 100%; background-image: url("../images/portfoliobg.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
     }    
 }
 
