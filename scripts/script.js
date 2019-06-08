@@ -30,6 +30,7 @@ $(document).ready(function(){
         $(".nav-click").on("click",function(){
             $(".navbar-mobile").removeClass("navbar-mobile-on");
             $(".nav-links").removeClass('show-links'); 
+            $(".hamburger").removeClass('active');
         });
     }
 
