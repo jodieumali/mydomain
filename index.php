@@ -183,10 +183,8 @@
                     </div>                    
                 </div>
                 <!------------------------------>
-            
-            <div id="toportfolio1"></div>
-            
-            <div id="toportfolio" class="third-part-container">
+    
+            <div id="toportfolio1" id="toportfolio" class="third-part-container">
                 <div class="row no-gutters">
                     <div class="portfolio-content col-sm-10 offset-sm-1">
                         <div class="portfolio-title d-flex justify-content-center">
