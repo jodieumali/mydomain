@@ -200,7 +200,7 @@
                             <div class="box">
                                 <div class="to-works">
                                     <label>Photography Collections</label>
-                                    <a href="portfolio%2520works/photography.html"><img class="arrow" src="images/arrow.png" alt="arrow"/></a>
+                                    <a href="portfolio_works/photography.html"><img class="arrow" src="images/arrow.png" alt="arrow"/></a>
                                 </div>
                             </div>
                             <div class="box">
