@@ -194,7 +194,7 @@
                             <div class="box">
                                 <div class="to-works">
                                     <label>Mobile and Web Designs</label>
-                                    <a href="#"><img class="arrow" src="images/arrow.png" alt="arrow"/></a>
+                                    <a href="portfolio_works/mobileandweb.html"><img class="arrow" src="images/arrow.png" alt="arrow"/></a>
                                 </div>
                             </div>
                             <div class="box">
