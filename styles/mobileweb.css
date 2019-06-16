@@ -10,7 +10,8 @@ body {
     right: 0; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: #ececec; }
 
 .main-container {
   padding: 0; }
@@ -33,10 +34,7 @@ html {
 .first-part-container {
   width: 100%;
   height: auto;
-  background-image: url("../images/portfolio-works.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  background-color: #ececec; }
   .first-part-container nav {
     width: 1060px;
     height: 100px;
@@ -566,7 +564,7 @@ html {
     .first-part-container .mobweb-container .owl-theme {
       overflow: hidden; }
       .first-part-container .mobweb-container .owl-theme .owl-item {
-        height: 340px; }
+        height: 400px; }
         .first-part-container .mobweb-container .owl-theme .owl-item div {
           display: flex;
           justify-content: center; }

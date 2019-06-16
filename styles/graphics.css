@@ -10,7 +10,8 @@ body {
     right: 0; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background-color: #ececec; }
 
 .main-container {
   padding: 0; }
@@ -33,10 +34,7 @@ html {
 .first-part-container {
   width: 100%;
   height: auto;
-  background-image: url("../images/portfolio-works.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  background-color: #ececec; }
   .first-part-container nav {
     width: 1060px;
     height: 100px;
@@ -62,7 +60,7 @@ html {
           color: black; }
   .first-part-container .navbg {
     background-color: white;
-    width: 600px;
+    width: 880px;
     border-radius: 10px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); }
   .first-part-container .navbar-mobile {
@@ -535,7 +533,8 @@ html {
     .first-part-container .mobweb-container .regis-event {
       display: flex;
       flex-direction: column;
-      justify-content: space-around; }
+      justify-content: space-around;
+      margin-bottom: 50px; }
       .first-part-container .mobweb-container .regis-event h1 {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -566,7 +565,7 @@ html {
     .first-part-container .mobweb-container .owl-theme {
       overflow: hidden; }
       .first-part-container .mobweb-container .owl-theme .owl-item {
-        height: 340px; }
+        height: auto; }
         .first-part-container .mobweb-container .owl-theme .owl-item div {
           display: flex;
           justify-content: center; }
@@ -595,6 +594,9 @@ html {
 /* ===================================================================*/
 /* ===================================================================*/
 @media (max-width: 575.98px) {
+  html {
+    background-color: white !important; }
+
   .first-part-container {
     background: none !important;
     height: auto !important; }
@@ -950,6 +952,9 @@ html {
 /* ===================================================================*/
 /* ===================================================================*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    background-color: white !important; }
+
   .first-part-container {
     background: none !important;
     height: auto !important; }
@@ -1263,6 +1268,9 @@ html {
 /* ===================================================================*/
 /* ===================================================================*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    background-color: white !important; }
+
   .first-part-container {
     background: none !important;
     height: auto !important; }
