@@ -206,7 +206,7 @@
                             <div class="box">
                                 <div class="to-works">
                                     <label>Graphic Designs</label>
-                                    <a href="#"><img class="arrow" src="images/arrow.png" alt="arrow"/></a>
+                                    <a href="portfolio_works/graphics.html"><img class="arrow" src="images/arrow.png" alt="arrow"/></a>
                                 </div>
                             </div>
                         </div>
